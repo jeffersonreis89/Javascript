@@ -2,11 +2,17 @@
     <head>
         <title>Aulas de Javascript</title>
         <script>
+            var meses = ["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"];
+            var agora = new Date();
 
+            console.log(agora.getDate() + " de " + meses[agora.getMonth()] + " de " + agora.getFullYear() + " às " + agora.getHours() + ":" + agora.getMinutes());
             
+            var aniversario = new Date(1995,10,28);
+            console.log(aniversario.getDay());
         </script>
     </head>
     <body>
+        
         
     </body>
 </html>
