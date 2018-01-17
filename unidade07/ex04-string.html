@@ -2,7 +2,18 @@
     <head>
         <title>Aulas de Javascript</title>
         <script>
+            var nome = "Jefferson Reis";
+            console.log(nome.toUpperCase());
+            console.log(nome.toLowerCase());
 
+            var nomes= "JEFFERSON REIS"
+            var letras_minuscula = nomes.toLocaleLowerCase();
+            var primeira = letras_minuscula.charAt(0).toUpperCase();
+
+
+            var primeiro_nome = primeira + letras_minuscula.substr(1,letras_minuscula.length);
+            console.log(primeiro_nome.split(" ")[0]);
+            
         </script>
     </head>
     <body>
